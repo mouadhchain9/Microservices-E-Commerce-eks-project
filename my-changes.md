@@ -30,7 +30,7 @@
 
 10- gave the jumphost instance labrole manually using management console
 
-11- might need to change eks cluster nodes instanc to t3.medium in te future (doing it rn)
+11- might need to change eks cluster nodes instanc to t3.medium in the future (doing it rn)
 
 12- ./ecr-terraform/backend.tf change S3 bucket name
 
@@ -41,4 +41,6 @@
 	- change your envirenment (git) credentials
 
 
-14- diffrent approach (since can't push to ecr) using docker, adservice testfile 
+14- diffrent approach (since can't push to ecr) using docker, adservice testfile (success O)
+
+15- full jenkinsfiles reconstrucion to use docker hub instead of ecr , moved old files to ./orig-files 
