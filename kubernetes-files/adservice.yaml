@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 0xyz0/adservice:1
+        image: 0xyz0/adservice:5
         ports:
         - containerPort: 9555
         env:
@@ -64,4 +64,5 @@ spec:
   - name: grpc
     port: 9555
     targetPort: 9555
+
 
